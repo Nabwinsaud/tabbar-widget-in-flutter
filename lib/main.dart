@@ -1,4 +1,5 @@
 import 'package:flutter/material.dart';
+import 'package:tabbar/screens/gesture_detector_widget.dart';
 import 'package:tabbar/screens/grid_view_widget.dart';
 import 'package:tabbar/screens/snackbar_widget.dart';
 // import 'package:tabbar/screens/home_page.dart';
@@ -27,7 +28,8 @@ class MyApp extends StatelessWidget {
       // home: const TransParentAppBar()
       // home: const TabBarDemo(),
       // home: const SnackBarWidget(),
-      home: const GridViewWidget(),
+      // home: const GridViewWidget(),
+      home: const MyGestureDetectorWidget(),
     );
   }
 }
