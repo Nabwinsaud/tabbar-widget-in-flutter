@@ -1,4 +1,6 @@
 import 'package:flutter/material.dart';
+import 'package:tabbar/screens/grid_view_widget.dart';
+import 'package:tabbar/screens/snackbar_widget.dart';
 // import 'package:tabbar/screens/home_page.dart';
 import 'package:tabbar/screens/tabar_widget.dart';
 // import 'package:tabbar/screens/transparent_app_bar.dart';
@@ -19,10 +21,13 @@ class MyApp extends StatelessWidget {
       theme: ThemeData(
         primarySwatch: Colors.blue,
       ),
+
       // home: const HomePage(),
-      home: const TabarWidget(),
+      // home: const TabarWidget(),
       // home: const TransParentAppBar()
       // home: const TabBarDemo(),
+      // home: const SnackBarWidget(),
+      home: const GridViewWidget(),
     );
   }
 }
